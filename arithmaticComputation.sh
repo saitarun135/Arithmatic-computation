@@ -1,3 +1,6 @@
-echo "enter three value"
-read  value
-echo "the three inputs are  $value"
+#!/bin/bash -x
+echo "enter three inputs"
+read  a b c
+result1=$(($a+$b+$c))
+echo $result1
+
